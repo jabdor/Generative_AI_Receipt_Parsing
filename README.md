@@ -4,15 +4,16 @@ Working script to take input receipt images, parse them out using OpenAI's API (
 
 The parsing extracts header and line-item information:
 
-  Header:
-    Vendor
-    Receipt Date
-    Total Receipt Cost
-  Line-Item:
-    Line Item
-    Line Item Cost
-    Line Item Description
-    Line Item Category
+Header:
+- Vendor
+- Receipt Date
+- Total Receipt Cost
+
+Line-Item:
+- Line Item
+- Line Item Cost
+- Line Item Description
+- Line Item Category
 
 On average, the token cost is around 1000 tokens (between request and response tokens). At this point in time, the total cost is about $.01 - $.03 per image. 
 More info on token pricing: https://openai.com/pricing
