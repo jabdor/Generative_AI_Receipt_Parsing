@@ -14,8 +14,8 @@ The parsing extracts header and line-item information:
     Line Item Description
     Line Item Category
 
-On average, the token cost is around 1000 tokens (mixed with the request and response). At this point in time, it's about .01 - .03 per image. 
-
+On average, the token cost is around 1000 tokens (between request and response tokens). At this point in time, the total cost is about $.01 - $.03 per image. 
+More info on token pricing: https://openai.com/pricing
 ## Features
 
 - Converts PDFs to jpgs. The API requires images to be in jpg or png format.
