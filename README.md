@@ -34,6 +34,8 @@ More info on token pricing: https://openai.com/pricing
 
 ## Future Ideas
 
-- Add better logging
-- Create an executable script
+- Add better logging and exception handling
 - Perform a status page check prior to starting the script
+- Needs more testing across different types of receipts
+- It would be cool to be able to parse out tax, tips, etc.
+- There are still scenarios where chat gpt has issues accurately finding all items. More tuning should be done.
